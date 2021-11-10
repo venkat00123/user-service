@@ -15,7 +15,6 @@ public class UserResource {
         List<String> users = new ArrayList<>();
         users.add("venkat");
         users.add("Gyan");
-        users.add("vishnu");
         return users;
     }
 }
