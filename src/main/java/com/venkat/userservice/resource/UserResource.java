@@ -13,9 +13,9 @@ public class UserResource {
     @RequestMapping("/all")
     public List<String> getAllUsers(){
         List<String> users = new ArrayList<>();
+        users.add("manasi");
         users.add("venkat");
         users.add("Gyan");
-        users.add("manasi");
         return users;
     }
 }
