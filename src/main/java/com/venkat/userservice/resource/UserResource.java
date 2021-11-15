@@ -16,6 +16,7 @@ public class UserResource {
         users.add("manasi");
         users.add("venkat");
         users.add("Gyan");
+         users.add("bujji");
         return users;
     }
 }
